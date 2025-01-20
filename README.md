@@ -1,2 +1,0 @@
-# cumple-thiago
-cumple thiago
