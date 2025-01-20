@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #15ff00, #069e01);
+            color: rgb(0, 0, 0);
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 20vh;
+            font-size: 3em;
+            animation: bounce 1s infinite;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1em;
+            color: white;
+            background-color: #ff0000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        button:hover {
+            background-color: #ff8566;
+        }
+        #gif-container {
+            margin-top: 50px;
+        }
+        #gif-container img {
+            width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Feliz Cumpleaños, Marica Maceira!</h1>
+    <p>Pasalo bien pero estudia, que pienso trabajar en tu futura empresa de ti dependo!!</p>
+    <button onclick="redirectToVideo()">Abre Tu Regalo!!!!!</button>
+
+    <div id="gif-container">
+        <!-- GIF de Piolín -->
+        <img src="https://i.pinimg.com/originals/bb/6c/21/bb6c21e598e4f048cc7b9ef08031d091.gif" alt="Piolín Feliz Cumpleaños">
+    </div>
+
+    <script>
+        function redirectToVideo() {
+            // Muestra la alerta y redirige al video inmediatamente después de aceptar
+            alert("¡19 PUTO!");
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&autoplay=1";
+        }
+    </script>
+</body>
+</html>
